@@ -79,7 +79,8 @@ class Ebookstore:
         new_title = book[1]
         new_author = book[2]
         new_qty = book[3]
-
+   
+        # Get user input
         if input('Do you want to update the ID number? (Yes/No): ').strip().lower() == 'yes':
             new_id = self.get_valid_int_input('Update book ID number: ')
 

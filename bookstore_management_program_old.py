@@ -8,13 +8,15 @@ class Ebookstore:
         self.db = self.connect_db()
         self.create_table()
 
-    def connect_db(self):
+    def connect_db(self):  # Create the data directory
         if not os.path.exists('data'):
             os.makedirs('data')
+        # Connect to the SQlite database
         return sqlite3.connect(self.db_path)
     
     def create_table(self):
         cursor = self.db.cursor()
+        # Create the book table if it doesn't exist
         cursor.execute('''
             CREATE TABLE IF NOT EXISTS book(
                    id INTEGER PRIMARY KEY,
@@ -29,6 +31,7 @@ class Ebookstore:
         cursor.execute('SELECT COUNT (*) FROM book')
         count = cursor.fetchone()[0]
 
+        # Initialise books if table is empty
         if count == 0:
             books = [            
             (3001, 'A Tale of Two Cities', 'Charles Dickens', 30),
@@ -43,14 +46,14 @@ class Ebookstore:
             self.db.commit()
 
     @staticmethod
-    def get_valid_int_input (prompt):
+    def get_valid_int_input (prompt):  # Get valid integers from user
         while True:
             try:
                 return int(input(prompt))
             except ValueError:
                 print("invalid input. Please enter a valid number.")
     
-    def enter_book(self):
+    def enter_book(self):  # Get book details from user
         cursor = self.db.cursor()
         id = self.get_valid_int_input('Enter new book id: ')
         title = input('Enter book title: ')
@@ -61,7 +64,7 @@ class Ebookstore:
                        VALUES(?,?,?,?)''', (id, title, author, qty))
         self.db.commit()
 
-    def update_book(self):
+    def update_book(self):  # Allow user to update book details
         cursor = self.db.cursor()
         book_id = self.get_valid_int_input('Enter the ID of book to update: ')
 
@@ -94,13 +97,13 @@ class Ebookstore:
         self.db.commit()
         print("Book updated successfully.")
 
-    def delete_book(self):
+    def delete_book(self):  # Allow user to delete books from database
         cursor = self.db.cursor()
         id = self.get_valid_int_input('Enter the ID number of the book: ')
         cursor.execute('''DELETE FROM book where id = ?''',(id,))
         self.db.commit()
 
-    def search_books(self):
+    def search_books(self):  # Enable user to search for books in database
         cursor = self.db.cursor()
         title = input('Enter the book title: ')
         cursor.execute('''SELECT * FROM book WHERE title LIKE ?''',('%' + title + '%',))
@@ -113,7 +116,7 @@ class Ebookstore:
         self.db.close()
         sys.exit(0)
 
-    def main_menu(self):
+    def main_menu(self):  # Display main menu to user
         while True:
             option = input('''Enter a menu option: 
               1. Enter book

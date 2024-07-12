@@ -41,7 +41,7 @@ class Ebookstore:
             (3005, 'Alice in Wonderland', 'Lewis Carroll', 12)
             ]
 
-            cursor.executemany('''INSERT INTO book(id, title, author, qty)
+            cursor.executemany('''INSERT OR IGNORE INTO book(id, title, author, qty)
                                VALUES (?,?,?,?)''', books)
             self.db.commit()
 

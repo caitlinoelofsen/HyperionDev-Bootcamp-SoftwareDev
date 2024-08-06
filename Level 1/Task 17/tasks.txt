@@ -1,3 +1,0 @@
-Task: Register users, Assigned to: sally, Date assigned: 2024-06-08, Due date: 2024-07-02, Task description: Register all new employees, Task complete? No
-Task: Assign new tasks, Assigned to: Samuel, Date assigned: 2024-06-11, Due date: 2024-07-20, Task description: Assign new tasks to employees for August, Task complete? No
-Task: Register new employees, Assigned to: jack, Date assigned: 2024-06-28, Due date: 2024-07-10, Task description: Register all new employees, Task complete? No

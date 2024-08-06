@@ -1,0 +1,38 @@
+1. Discuss any ambiguities or omissions in the statement of requirements for this part of a ticket-issuing system:
+
+- User Interface Details: There is no description of the user interface (UI) elements or how the user interactions will be handled. 
+
+- Credit Card and Personal Identification Number Handling: There is no mention of how the credit card information is input. For example a card reader or manual input.
+
+- Validation Process: There are no specifics on how the credit card's validity is checked or if the personal identifier is validated.
+
+- Security Considerations: The requirements do not address any security measures for handling credit card details or identification numbers.
+
+- Error Handling: The requirements do not address how errors will be handled. For example, if the credit card is invalid, how will the system communicate this to the user.
+
+- Destination Selection: The description of destination selection is vague. Are there sub-categories or a search function to help users find their desired destination.
+
+2. Write a set of non-functional requirements for the ticket-issuing system. 
+
+Performance Requirements: 
+- Response time: The system should respond to the user within 2-5 seconds.
+- Transaction time: The system should not exceed 30 seconds for the entire ticket issuing process.
+
+Reliability Requirements:
+- Uptime: The system should be reliable and ensure that it can handle a large number of users without experiencing downtime or lag.
+- Data Integrity: The system should ensure data integrity in case of power failures or system crashes, with no loss of transaction data.
+
+Security Requirements:
+- Data Encryption: All credit cards and person identification numbers should be encrypted during input, transmission and storage.
+- Authentication: The system should validate credit card information using a secure payment gateway. 
+
+Usability Requirements:
+- User Interface: Should be intuitive with clear instructions and feedback during each step of the ticket issuance process.
+- Language Support: The system should have a variety of languages with an option for users to select their preferred language.
+
+Support Requirements:
+- Technical Support: There should be 24/7 technical support provided to users.
+
+
+I used the following resource to complete this task:
+https://www.studocu.com/row/messages/question/4606169/write-a-set-of-non-functional-requirements-for-the-ticket-issuing-system-setting-out-its-expected

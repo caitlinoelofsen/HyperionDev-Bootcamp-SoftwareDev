@@ -1,0 +1,44 @@
+Level 2 | Task 4 | Databases
+
+Compulsory Task 1:
+
+1. Define each of the following terms:
+
+a) Data: Data are raw facts that have not been processed yet. An example of data is a telephone number, customer's name or birthdate.
+
+b) Field: Fields are used to define and store data. They are a character or a group of character that have a specific meaning.
+
+c) Record: A record is a set of one or more fields that describes a person, place or thing and are logically connected. 
+
+d) File: A file is a collection of related records
+
+2. What is a DBMS and what are its advantages?
+
+A DBMS is a database management system is a program or set of programs created to work with a database, structure and access.
+
+Advantages of a database management system:
+
+- Better data sharing by ensure end-users have more efficient access to data and that it is better managed.
+
+- Better data integration by facilitating a variety of end-users access to the data in a well managed-manner and providing a more integrated way for end-users to view the organisations operations. 
+
+- Minimised data inconsistency. A properly designed database reduces the probability of data inconsistency. 
+
+- Improved data access for end-users.
+
+- Improved decision making by end-users as better quality information is generated due to better-managed data and improved data access.
+
+- Increased end-user productivity due to the availability of data and the ability to transform data into usable information enabling end-users to make quicker, more informed decisions.
+
+3. Explain what is the difference between data and information?
+
+Data is raw facts that have not been processed to reveal their meaning yet. Information is the result of processing data to reveal its meaning.
+
+4. What is metadata?
+
+Data about data through which the end user data is integrated and managed. 
+
+5. 
+
+e) 4 records
+f) 5 fields per record

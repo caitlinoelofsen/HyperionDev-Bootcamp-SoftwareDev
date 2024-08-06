@@ -1,0 +1,58 @@
+1. Briefly describe the possible quality standards that might be used for theses real-world products:
+
+Mobile gaming app
+
+Quality Standards:
+- Security and data protection: Ensure the app adheres to regulations and protects user's data.
+- Disk and memory consumption: Optimise to avoid excessive memory use.
+- Code quality: Ensure readability, maintainability and consistency of your code.
+- Testing and debugging: Essential for code quality and will help identify and fix errors, bugs, and vulnerabilities.
+- Documentation and comments: Explain design decisions, assumptions and limitations of your code as well as provide instructions for using your code. 
+
+Banking application
+
+Quality Standards:
+- Security and data protection: Ensure that user's details are protected and not at risk of theft.
+- Usability: Ensure quick and easy access to banking profiles.
+- Understandability: Make the application intuitive with minimal learning curve. 
+
+Database for medical organisation
+
+Quality Standards:
+- Security and data protection: Safeguarding patient data and comply with health regulations.
+- Data Accuracy: Ensure accurate and up to date patient information.
+- Availability and Reliability: Maintain high availability and reliability for critical access.
+- Compliance: Adhere to healthcare industry standards and legal requirements.
+
+
+2. Explain why a high-quality software process should lead to high-quality software products. Discuss possible problems with this system of quality management.
+
+Answer:
+If a company uses a high quality software process, they should be able to identify and resolve any issues, bugs or low quality areas that require improvement. It will also assist the company in standardising their processes, ensuring consistency in their development practices. A high-quality software process has many benefits and will result in a high-quality product.
+
+This type of system can be quite rigid and may slow down the development process or it may not work at all with the type of development being used, such as agile development. There could also be an increase in costs as implementing and maintaining high-quality processes can be expensive.
+
+3. Explain why program inspections are an effective technique for discovering errors in a program. What type errors are unlikely to be discovered through inspections.
+
+Answer:
+Programming inspections are effective for identifying potential errors and omissions throughout the software development lifecycle. However there are certain errors that are unlikely to be discovered through inspection.
+
+- Runtime Errors: These will only manifest during execution.
+- Integration Issues: Problems that arise from the interaction between different system components or external systems.
+- Usability Problems: User interface and user experience issues.
+
+4. Why is it difficult to validate the relationships between internal product attributes and external attributes?
+
+Answer: 
+Internal attributes such as code quality and external attributes such as usability interact in complex ways that are not always straightforward to understand or measure. External attributes like usability and user satisfaction can be subjective and vary between different users which makes it challenging to establish relationships with internal attributes. 
+
+
+Resources used to complete this task:
+
+1. https://www.opslevel.com/resources/standards-in-software-development-and-9-best-practices
+2. https://www.tatvasoft.com/outsourcing/2021/11/6-common-problems-in-the-software-development-process.html
+3. https://www.linkedin.com/pulse/common-types-software-development-errors-consequences-bart-s/
+
+
+
+

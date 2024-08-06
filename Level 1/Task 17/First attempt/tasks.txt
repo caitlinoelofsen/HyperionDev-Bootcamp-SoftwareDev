@@ -1,0 +1,2 @@
+admin, Register Users with task_manager.py, Use task_manager.py to add the usernames and passwords for all team members that will be using this program., 10 Oct 2019, 20 Oct 2019, No
+Task: Register users, Assigned to: sally, Date assigned: 2024-06-08, Due date: 2024-07-02, Task description: Register all new employees, Task complete? No

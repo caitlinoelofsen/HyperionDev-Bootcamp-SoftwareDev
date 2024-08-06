@@ -1,0 +1,50 @@
+{
+    "books": [{
+        "title": "Fountainhead",
+        "author": "Ayn Rand",
+        "year": "1943",
+        "genre": "Philosophical fiction"
+    },
+    {
+        "title": "A Brave New World",
+        "author": "Aldous Huxley",
+        "year": "1932",
+        "genre": "Dystopian fiction"
+    },
+    {
+        "title": "One Hundred Years of Solitude",
+        "author": " Gabriel Garcia Marquez",
+        "year": "1967",
+        "genre": "Magical Realism"
+    },
+    {
+        "title": "Scarcity Brain",
+        "author": "Michael Easter",
+        "year": "2023",
+        "genre": "Self Help"
+    },
+    {
+        "title": "The Alchemist",
+        "author": "Paulo Coelho",
+        "year": "1988",
+        "genre": "Fantasy Fiction"
+    },
+    {
+        "title": "The Prophet",
+        "author": "Khalil Gibran",
+        "year": "1923",
+        "genre": "Poetry Fiction"
+    },
+    {
+        "title": "The Road to Serphdom",
+        "author": "Frederich Hayek",
+        "year": "1944",
+        "genre": "Political Pilosophy"
+    },
+    {
+        "title": "From Under the Rubble",
+        "author": "Aleksandr Solzhenitsyn",
+        "year": "1974",
+        "genre": "Russian Literature"
+        }]
+}

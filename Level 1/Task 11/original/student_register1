@@ -1,0 +1,21 @@
+with open('reg_form.txt', 'w') as f:
+        try:
+            number_of_students = int(input("How many students are registering? "))
+        except ValueError:
+            print("Please enter a valid number. ")
+            
+        for i in range(number_of_students):
+            id_number = int(("Input student ID number: "))
+            f.write("Student ID number: " + str(id_number) + " .........\n")
+
+
+
+
+
+
+
+
+        
+
+
+

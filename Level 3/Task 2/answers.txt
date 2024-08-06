@@ -1,0 +1,23 @@
+1. Suggest which generic software model will be most appropriate for the development of the following systems. Give reasons for your answers.
+
+- A system to control anti-lock braking in a car.
+Suggested System: The waterfall model. 
+Reason: This is a simple system that has one use purpose. It will not require extra features later.
+
+- A virtual reality system to support software maintenance.
+Suggested System: The incremental model. 
+Reason: This is a complex system that will have different versions and new features as the system develops. This model will make the development process more flexible and adaptive.
+
+- A university accounting system that replaces an existing system.
+Suggested System: Reuse-orientate software engineering. 
+Reason: This system is replacing an existing system therefore the developers can leverage and utilise existing code and adapt it to fit the requirements for the new system. This system will save time and resources.
+
+- An interactive travel planning system that helps users plan trips with the lowest environmental impact. 
+Suggested System: The incremental model. 
+Reason: As this is an interactive system, it is likely that the system will develop and expand as more users are introduced. There may be a demand for new features based on user feedback. The incremental model supports iterative development, allowing continuous improvements and features over time.
+
+2. Why do you think incremental development is the most effective approach for developing business software systems?
+Businesses are dynamic and continuously evolving. Business software systems need to be able to adapt and change in tandem with a business at minimal cost. This approach allows software to be developed and deployed in manageable pieces making it easier to adapt to changing requirements.
+
+3. Why do you think it is necessary to have two separate requirements engineering steps in this process?
+The first requirements step is the specification step which defines what the product is required to do. The second requirements step is the modification step which is where the requirements themselves are adjusted to fit with the available components. 
